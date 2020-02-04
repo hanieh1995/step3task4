@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-color: lightpink;
+}
+
+.tdo {
+    width: 55%;
+    margin: 100px auto;
+    box-shadow: 10px 10px 50px 1px rgb(242, 101, 101);
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+    .tdo > p {
+        width: 85%;
+        margin: 40px auto;
+        color: gray;
+        font-size: 20px;
+        text-align: center;
+    }
+
+#x {
+    margin: 0px 7%;
+    margin-top: 25px;
+    margin-right: 1%;
+    margin-bottom: 20px;
+    width: 60%;
+    background-color: rgb(221, 207, 207);
+    color: rgb(255, 0, 0,0.6);
+}
+
+button {
+    width: 25%;
+    border: none;
+    background-color: rgb(245, 174, 174);
+    cursor: pointer;
+    outline: none;
+}
+
+    button:hover {
+        box-shadow: 0 0 20px gray;
+    }
+
+li {
+    width: 92%;
+    list-style-type: none;
+    margin-bottom: 15px;
+    margin-left: 1.5%;
+}
+
+.first {
+    margin-left: 12%;
+}
+
+.close {
+    padding-top: 4px;
+    float: right;
+    padding-right: 5px;
+    margin-right: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.checked {
+    float: right;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.edit {
+    padding-top: 5px;
+    float: right;
+    padding-right: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.editinputstyle {
+    width: 40%;
+    background-color: lightpink;
+    color: black;
+    border: none;
+}
+
+@media only screen and (max-width: 375px) {
+    .tdo {
+        width: 195px;
+    }
+}
